@@ -9,6 +9,7 @@ import { PureCurrencyPipe } from "../pure-currency";
   imports: [CommonModule, ImpureCurrencyPipe, PureCurrencyPipe],
   template: `
               <p>
+                <h2> its test</h2>
                   <h2>Balance: {{ balance | pureCurrency:currency }}</h2> 
                   <h2>Balance: {{ balance | impureCurrency:currency }}</h2> 
                   <!-- <h2>Balance: {{ balance | impureCurrency:currency}}</h2>
